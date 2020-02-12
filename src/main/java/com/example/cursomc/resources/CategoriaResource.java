@@ -25,14 +25,6 @@ public class CategoriaResource {
 		
 		Categoria obj = service.buscar(id); 
 		
-		/*Categoria cat1 = new Categoria(1,"Informatica");
-		Categoria cat2 = new Categoria(2, "Escritorio");
-		
-		List<Categoria> lista = new ArrayList<>();
-		lista.add(cat1);
-		lista.add(cat2);*/
-		
-		
 		return ResponseEntity.ok().body(obj);
 	}
 }
